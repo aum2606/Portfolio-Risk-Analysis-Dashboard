@@ -1,0 +1,53 @@
+numpy==1.24.3
+pandas==2.0.2
+matplotlib==3.7.2
+seaborn==0.12.2
+dash==2.13.0
+dash-bootstrap-components==1.5.0
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+plotly==5.15.0
+scipy==1.10.1
+scikit-learn==1.2.2
+pytest==7.4.0
+pytest-cov==4.1.0
+python-dotenv==1.0.0
+jupyter==1.0.0
+notebook==6.5.4
+
+
+
+
+
+
+
+
+portfolio_risk_dashboard/
+├── data/
+│   ├── Portfolio.csv
+│   └── Portfolio_prices.csv
+├── notebooks/
+│   └── data_exploration.ipynb
+├── src/
+│   ├── data_loading/
+│   │   ├── __init__.py
+│   │   ├── data_loader.py
+|   ├── data_loading/
+│   │   ├── __init__.py
+│   │   └── data_preprocessing.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── portfolio.py
+│   │   └── risk_metrics.py
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── charts.py
+│   │   └── dashboard.py
+│   └── app.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_loader.py
+│   ├── test_portfolio.py
+│   └── test_risk_metrics.py
+├── requirements.txt
+└── README.md
